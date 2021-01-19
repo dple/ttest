@@ -3,7 +3,7 @@
 %output ciphertext
 %(must use ' on either end of hex being put into the function)
 
-%% MAIN FUNCTION 
+%% MAIN FUNCTION
 
 function[C64]=DESencrypt(M64,Key64)
 
