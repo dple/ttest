@@ -3,8 +3,6 @@
 %output ciphertext
 %(must use ' on either end of hex being put into the function)
 
-%% MAIN FUNCTION
-
 function[C64]=DESencrypt(M64,Key64)
 
 %hex2bin
@@ -43,9 +41,6 @@ D=InvIPmatrix([R,L]);
 C64=bin2hex(D);
 
 end
-
-
-%% LOCAL FUNCTIONS
 
 function[x]=bin2hex(A)
 x='0000000000000000';
