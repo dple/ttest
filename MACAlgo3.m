@@ -5,7 +5,7 @@
 
 function [MAC] = MACAlgo3(nt1, nt2) %(M,K1,K2)
 
-    RootFolder = '../MAC_traces/test';    
+    RootFolder = 'MAC_traces\test';    
     
     K1 = 'ABCDEF1234567890';
     K2 = '1234567890ABCDEF';
