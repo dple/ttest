@@ -4,7 +4,7 @@
 % Main function
 function[] = RE_tTest()
 
-    RootFolder = 'C:\Users\51377\RnD\MAC_traces\test5'; 
+    RootFolder = 'MAC_traces\test'; 
     
     FixedFolder = [RootFolder, '\dataset0'];    % Fixed key and data
     RandFolder = [RootFolder, '\dataset1'];     % Fixed key and random data    
