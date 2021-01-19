@@ -1,12 +1,10 @@
 %Input: @nt: Number of traces
 
-%% MAIN FUNCTION
-
 function[]=ST_MAC_addGN(startFolder, nbFolders, nbTraces0)
         
     % Root Folder
-    SourceRoot = 'C:\Users\51377\RnD\DES_traces\test1\dataset';
-    ResultRoot = 'C:\Users\51377\RnD\DES_traces\test6'; 
+    SourceRoot = 'DES_traces\test\dataset';
+    ResultRoot = 'DES_traces\test'; 
     headerLength = 68;
     
     startFile = 1;
