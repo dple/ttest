@@ -3,14 +3,9 @@
 %Output MAC
 %(must include ' on either end of hex being put into the function)
 
-%% MAIN FUNCTION
-
 function [MAC] = MACAlgo3(nt1, nt2) %(M,K1,K2)
 
-    %RootFolder = 'C:\Users\51377\RnD\MAC_traces\test4';    
-    RootFolder2 = 'C:\Users\51377\RnD\MAC_traces\test5';
-    % Re-simulate unsecure DES traces
-    %RootFolder = 'C:\Users\51377\RnD\MAC_traces\test3';
+    RootFolder = '../MAC_traces/test';    
     
     K1 = 'ABCDEF1234567890';
     K2 = '1234567890ABCDEF';
